@@ -1,0 +1,41 @@
+baseURL = "https://zeroize.no/"
+languageCode = "nb-no"
+title = "Zeroize"
+
+# https://themes.gohugo.io/themes/hugo-theme-m10c/
+theme = "hugo-theme-m10c"
+
+[params]
+# HTML meta-info (author, description)
+author = "Zeroize"
+description = " "
+avatar = "/profile.jpg"
+menu_item_separator = "–"
+favicon = "/favicon.png"
+
+[params.style]
+# Links, icons, borders
+primaryColor = "#EFE9F4"
+# Header font
+lightestColor = "#EFE9F4"
+# Content font
+lightColor = "#EFE9F4"
+# Body background
+darkColor = "#2D2D2D"
+# Sidebar background
+darkestColor = "#4F5AF8"
+
+[[params.social]]
+  icon = "brand-github"
+  name = "Github"
+  url = "https://github.com/0ize"
+
+[menu]
+
+[[menu.main]]
+  identifier = "about"
+  name = "Om"
+  url = "/about/"
+
+[pagination]
+  pagerSize = 8

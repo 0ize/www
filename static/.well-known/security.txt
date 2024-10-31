@@ -1,0 +1,2 @@
+Contact: security@zeroize.no
+Preferred-Languages: no, en
