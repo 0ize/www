@@ -1,8 +1,11 @@
+# Theme: https://themes.gohugo.io/themes/hugo-theme-m10c/
+# Example config for theme: https://github.com/vaga/hugo-theme-m10c/blob/master/exampleSite/config.toml
+# Brand icons: https://simpleicons.org/
+
 baseURL = "https://zeroize.no/"
 languageCode = "nb-no"
 title = "Zeroize"
 
-# https://themes.gohugo.io/themes/hugo-theme-m10c/
 theme = "hugo-theme-m10c"
 
 [params]
@@ -26,17 +29,22 @@ darkColor = "#2D2D2D"
 darkestColor = "#4F5AF8"
 
 [[params.social]]
-  icon = "brand-github"
-  name = "Github"
-  url = "https://github.com/0ize"
+icon = "brand-github"
+name = "Github"
+url = "https://github.com/0ize"
+
+[[params.social]]
+icon = "brand-discord"
+name = "Discord"
+url = "https://zeroize.chat"
 
 [menu]
 
 # TODO: /about/ funker ikke på GH-Pages men funker i lokal devserver??
-[[menu.main]]
-  identifier = "about"
-  name = "Om"
-  url = "/about/"
+#[[menu.main]]
+#identifier = "about"
+#name = "Om"
+#url = "/about/"
 
 [pagination]
-  pagerSize = 8
+pagerSize = 8
