@@ -33,10 +33,10 @@ darkestColor = "#4F5AF8"
 [menu]
 
 # TODO: /about/ funker ikke på GH-Pages men funker i lokal devserver??
-#[[menu.main]]
-#  identifier = "about"
-#  name = "Om"
-#  url = "/about/"
+[[menu.main]]
+  identifier = "about"
+  name = "Om"
+  url = "/about/"
 
 [pagination]
   pagerSize = 8
